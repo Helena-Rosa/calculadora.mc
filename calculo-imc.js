@@ -36,7 +36,6 @@ classificaIMC();
  
 
 
-
 let classificacao
 
 
@@ -45,9 +44,7 @@ let classificacao
 
 
 
-function limparCampos(){
 
-};
 
 
 

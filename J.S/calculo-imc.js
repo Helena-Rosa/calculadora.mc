@@ -3,9 +3,16 @@
 // tratar os dados (converter, exibir os dados de forma correra )
 
 // variavel global
-let peso = 80;
-let altura = 1.75
-const imc = peso / (altura*altura);
+const inputPeso = document.getElementById('Weight');
+const inputAltura = document.getElementById('height');
+const textResultado = document.getElementById('resultText');
+const formulario = document.getElementById('imcForm');
+
+
+
+function mostarResultado (mensagem) {
+    textoResultado.textContent = mensagem;
+}
 
 
 

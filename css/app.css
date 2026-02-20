@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+    list-style: none;
+
+}
+
+
+.calculator__header {
+    width: 50%;
+    height: 350px;
+    background-color: #FFD6A5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #F77F00;
+    border-radius: 15px;
+    gap: 20px;
+    color: #D1495B;
+}
+
+
+.calculator_title{
+   
+}
+
+
+.calculator__buttons{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    
+
+    
+}
